@@ -18,12 +18,14 @@ $header-bg: #0a0a0a;
 .wrapper-footer footer#footer-openedx .colophon {
 
     .wrapper-logo {
-        float: left;
         margin-right: 20px;
     }
 
     .nav-colophon {
-        float:left;
         margin: 30px 0 2px 0;
+    }
+    
+    .wrapper-logo, .nav-colophon, p.copyright, nav.nav-legal {
+        float:left
     }
 }
